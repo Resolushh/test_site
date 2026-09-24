@@ -6,7 +6,7 @@ if (leadForm) {
     event.preventDefault();
     if (typeof gtag === 'function') {
       gtag('event', 'generate_lead', {
-        lead_source: 'contact_form'
+        lead_source: 'lead_form'
       });
     }
     document.querySelector('#form-status').textContent =
